@@ -1,22 +1,38 @@
 {
-  "name": "frontend",
+  "name": "cipher-chat",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
-    "expo": "55.0.10-canary-20260327-0789fbc",
-    "expo-status-bar": "55.0.5-canary-20260327-0789fbc",
-    "react": "19.2.0",
-    "react-native": "0.83.4"
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "eventemitter3": "^5.0.1",
+    "expo": "~51.0.0",
+    "expo-clipboard": "~6.0.3",
+    "expo-crypto": "~13.0.2",
+    "expo-device": "~6.0.1",
+    "expo-notifications": "~0.28.3",
+    "expo-secure-store": "~13.0.1",
+    "expo-sqlite": "~14.0.3",
+    "expo-status-bar": "~1.12.1",
+    "expo-system-ui": "~3.0.7",
+    "react": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-get-random-values": "~1.11.0",
+    "react-native-safe-area-context": "4.10.1",
+    "react-native-screens": "3.31.1",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
-    "@types/react": "~19.2.2",
-    "typescript": "~5.9.2"
-  },
-  "private": true
+    "@babel/core": "^7.24.0",
+    "@types/react": "~18.2.79",
+    "typescript": "~5.3.3"
+  }
 }
